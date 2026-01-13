@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "mob-app-1",
-    "slug": "mob-app-1",
+    "name": "Course Goals",
+    "slug": "course-goals",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
-    "backgroundColor":"#1e085a",
+    "backgroundColor": "#1e085a",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -21,10 +21,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.asnganje.coursegoals"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1300ecc5-0851-41db-9d7b-f5abb07595df"
+      }
     }
   }
 }
